@@ -7,7 +7,6 @@ import React, {
 } from 'react-native';
 
 export default function native(platform) {
-
     const MarketingPad = React.createClass ({
         render() {
             if (Platform.OS === 'android') {
